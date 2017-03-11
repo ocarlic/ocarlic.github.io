@@ -175,8 +175,7 @@ header {
 /* ------------------------  MEDIA QUERY -------------------------- */
 @media screen and (max-width: 768px){
   header {
-    background: #30333c;
-  /*background-image: url('../img/tow.jpg');*/
+  background: #30333c;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -234,7 +233,6 @@ header {
     flex-flow: nowrap;
     justify-content: space-between;
     position: relative;
-    left: 16px;
   }
   .fa-facebook,
   .fa-instagram,
@@ -306,6 +304,73 @@ header {
     75% { background-image: url('../img/ufo.png'); left: 200px; top: 0px;
     }
     100% { background-image: url('../img/ufo.png'); left: 100px;top: 800px;
+    }
+  }
+  @media only screen (min-device-width: 320px) and (max-device-width: 480px){
+    header {
+    background: #30333c;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    color: #fff;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    padding: 110px 0px;
+    margin: -20px;
+    }
+    .header-content {
+      width: 360px;
+      height: 100px;
+    }
+    .header-content .title {
+      font-weight: bold;
+      text-align: center;
+      font-size: 30px;
+      text-shadow: -1px -1px 7px #616161!important;
+      margin: 5px;
+    }
+    .header-content .text_p {
+      text-align: center;
+      font-size: 15px;
+      text-shadow: -1px -1px 7px #616161!important;
+      margin: 0px 45px 0 45px;
+      padding: 5px;
+    }
+    .responsive-img {
+      border-radius: 100px;
+      border-style: dotted;
+      border-width: 2px;
+      width: 100px;
+      height: 100px;
+          -webkit-transition:-webkit-transform 0.5s linear;
+          -moz-transition:-moz-transform 0.5s linear;
+               transition:transform 0.5s linear;
+    }
+    .responsive-img:hover {
+      color: #fff;
+      font-weight: bold;
+      -webkit-transform:scale(1) rotate(-360deg) skew(0deg, 0deg);
+      -moz-transform:scale(1) rotate(-360deg) skew(0deg, 0deg);
+           transition:scale(1) rotate(-360deg) skew(0deg, 0deg);
+    }
+    .network {
+      display: flex;
+      flex-direction: row;
+      flex-flow: nowrap;
+      justify-content: space-between;
+      position: relative;
+    }
+    #key {
+      background-image: none;
+    }
+    @-webkit-keyframes ufo {
+      /*none*/
+    }
+    @keyframes ufo{
+      /*none*/
     }
   }
 }
