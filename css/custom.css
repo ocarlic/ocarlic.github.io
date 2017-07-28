@@ -20,16 +20,15 @@ img, html {
     font-family: Lato;
     color: #fff;
     text-shadow: -2px -1px 7px #616161 !important;
+    padding: 3%;
 }
 .title {
     font-weight: bold;
     font-size: 50px;
-    padding: 2%;
 }
 .text_p {
     font-size: 15px;
     font-weight: 200;
-    padding: 3%;
 }
 .network {
     display: flex;
@@ -63,21 +62,23 @@ img, html {
      -webkit-animation: hue 18s infinite linear;
 }
 /*  LARGE DEVICES - WIDE SCREENS */
-@media screen end (min-width: 768px){
-      .text_p {
-        padding: 1%;
+@media screen and (min-width: 768px){
+      .title, .text_p {
+        padding: 2%;
       }
       .card {
         padding: 5% 5%;
+        margin: 5% 25%;
       }
 }
 /*  LARGE DEVICES - WIDE SCREENS */
 @media screen and (min-width: 1280px){
-      .text_p {
-        padding: 0 10%;
+      .title, .text_p {
+        padding: 2%;
       }
       .card {
-        padding: 10% 35%;
+        padding: 5% 5%;
+        margin: 6% 35%;
       }
       .network {
           margin: 1%;
