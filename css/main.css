@@ -35,11 +35,11 @@ main {
   padding: 7px;
 }
 .title {
-  margin: 9% 12%;
+  margin: 9% 11%;
   padding: 2%;
   font-size: 4rem;
   text-align: center;
-  line-height: 6rem;
+  line-height: 5rem;
 }
 .text-p {
   margin: 0% 10%;
@@ -67,7 +67,7 @@ main {
   justify-content: center;
 }
 .subtitle {
-  padding: 20%;
+  padding: 30%;
   margin: 0;
   text-align: center;
   color: #30333c;
@@ -83,7 +83,7 @@ main {
 }
 .itens {
   width: 40%;
-  height: 200px;
+  height: 180px;
   text-align: center;
   background: #fff;
   margin: 3% 5%;
