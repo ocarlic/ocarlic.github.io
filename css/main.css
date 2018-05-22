@@ -1,5 +1,5 @@
 html {
-  background: #fff;
+  /*background: #fff;*/
 }
 body {
   height: 100vh;
@@ -35,7 +35,7 @@ main {
   padding: 7px;
 }
 .title {
-  margin: 9% 11%;
+  margin: 7% 9%;
   padding: 2%;
   font-size: 4rem;
   text-align: center;
