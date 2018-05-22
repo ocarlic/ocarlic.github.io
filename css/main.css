@@ -1,6 +1,4 @@
-html {
-  /*background: #fff;*/
-}
+
 body {
   height: 100vh;
   background: #30333c !important;
@@ -15,7 +13,7 @@ h1, h3, a, p {
   color: white;
 }
 main {
-  height: 100vh;
+  height: 110vh;
 }
 /*
     TOP ONE
