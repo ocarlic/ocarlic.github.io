@@ -13,7 +13,7 @@ h1, h3, a, p {
   color: white;
 }
 main {
-  height: 110vh;
+  height: 100vh;
 }
 /*
     TOP ONE
@@ -33,7 +33,7 @@ main {
   padding: 7px;
 }
 .title {
-  margin: 7% 9%;
+  margin: 1%;
   padding: 2%;
   font-size: 4rem;
   text-align: center;
@@ -117,10 +117,11 @@ MEDIA QUERIES
      /*
         TOP ONE
      */
-     .skill {
-       height: 700px;
-     }
+    .skill {
+     height: 700px;
+    }
     .title {
+      margin: 7% 9%;
       margin-bottom: 0px;
       padding-bottom: 0px;
     }
